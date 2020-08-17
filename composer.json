@@ -1,0 +1,20 @@
+{
+    "name": "giang/demo",
+    "description": "package demo cua giang",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Giang\\Demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Giang\\Demo\\Providers\\DemoServiceProvider"
+            ]
+        }
+    }
+}
